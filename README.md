@@ -30,7 +30,7 @@ We will upgrade this library more as soon as we have time more.
 <img src="memory.png">
 
 We will try to support library as possible to make more usable for Java.
-<video src="dukeFly.mp4" width="320" height="240" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></video>
+<video src="dukeFly.mp4" width="320" height="240"></video>
 
 
 Feel free to ask any questions :
