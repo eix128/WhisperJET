@@ -33,6 +33,22 @@ We will try to support library as possible to make more usable for Java.
 <video src="dukeFly.mp4" width="320" height="240"></video>
 
 
+
+Usage :
+Install Maven , add Maven to OS PATH
+
+Windows cmd :
+chcp 65001
+git clone https://github.com/eix128/WhisperJET
+mvn package
+mvn install
+cd target
+mkdir models
+copy ..\src\main\resources\models\*.* models\
+mkdir testWavs
+copy ..\src\main\resources\testWavs\*.* testWavs\
+
+
 Feel free to ask any questions :
 **kadir.bayner@gmail.com**
 
