@@ -58,12 +58,18 @@ USE OF LIBRARY :<br>
 
 
 You can checkout for codes :
+
+Simple wav for 30 second test
 ```
     WhisperJET recognizerJava = new WhisperJET();
     byte[] bytes = Main.readWavNClipMax30("testwav.wav");
     long preCheckTime = System.currentTimeMillis();
     String translatedText = recognizerJava.recognize(bytes , languageCode );
 ```
+
+
+We will add realtime examples and support also.
+Stay tuned!
 
 
 
