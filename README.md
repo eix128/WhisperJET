@@ -30,25 +30,43 @@ We will upgrade this library more as soon as we have time more.
 <img src="memory.png">
 
 We will try to support library as possible to make more usable for Java.
-<video src="dukeFly.mp4" width="320" height="240"></video>
+<video src="dukeFly.mp4" width="320" height="240" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></video>
+
+TESTING :
+For Windows UTF-8 CMD: <br>
+<code>chcp 65001</code><br>
+<br>
+<br>
+WINDOWS AND OTHERS:<br>
+<code>git clone https://github.com/eix128/WhisperJET</code><br>
+<code>cd WhisperJET</code><br>
+<code>mvn package</code><br>
+<code>cd target</code><br>
+<code>mkdir models</code><br>
+<code>copy ..\src\main\resources\models\*.* models\</code><br>
+<code>mkdir testWavs</code><br>
+<code>copy ..\src\main\resources\testWavs\*.* testWavs\</code><br>
+<code>java -jar WhisperJET-1.0-jar-with-dependencies.jar</code>
 
 
 
-Usage :
-Install Maven , add Maven to OS PATH
-
-Windows cmd :
-chcp 65001
-git clone https://github.com/eix128/WhisperJET
-mvn package
-mvn install
-cd target
-mkdir models
-copy ..\src\main\resources\models\*.* models\
-mkdir testWavs
-copy ..\src\main\resources\testWavs\*.* testWavs\
+USE OF LIBRARY :<br>
+<code>git clone https://github.com/eix128/WhisperJET</code><br>
+<code>cd WhisperJET</code><br>
+<code>mvn install</code><br>
+<code>copy models folders from : src\main\resources to your project<br>
 
 
-Feel free to ask any questions :
+You can checkout for codes :
+```
+    WhisperJET recognizerJava = new WhisperJET();
+    byte[] bytes = Main.readWavNClipMax30("testwav.wav");
+    long preCheckTime = System.currentTimeMillis();
+    String translatedText = recognizerJava.recognize(bytes , languageCode );
+```
+
+
+
+Feel free to ask any questions :<br>
 **kadir.bayner@gmail.com**
 
