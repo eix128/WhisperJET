@@ -1,7 +1,6 @@
 # WhisperJET
 
-**Donate By BTC Address :
-1KuREYKb1fnnVJEBMXd1P7XmkjZcrTY3A3**
+
 
 FAST Offline Speech Recognition with
 One of the fastest Whisper implementation that works flawlessly real-time 
@@ -76,3 +75,6 @@ Stay tuned!
 Feel free to ask any questions :<br>
 **kadir.bayner@gmail.com**
 
+
+**Donate By BTC Address :
+1KuREYKb1fnnVJEBMXd1P7XmkjZcrTY3A3**
