@@ -71,6 +71,10 @@ We will add realtime examples and support also.
 Stay tuned!
 
 
+Reference Works :
+https://github.com/niedev/RTranslator
+
+
 
 Feel free to ask any questions :<br>
 **kadir.bayner@gmail.com**
