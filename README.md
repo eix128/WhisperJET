@@ -82,3 +82,7 @@ Feel free to ask any questions :<br>
 
 **Donate By BTC Address :
 1KuREYKb1fnnVJEBMXd1P7XmkjZcrTY3A3**
+
+
+REFERENCE WORKS:
+https://github.com/niedev/RTranslator
