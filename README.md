@@ -55,6 +55,9 @@ USE OF LIBRARY :<br>
 <code>mvn install</code><br>
 <code>copy models folders from : src\main\resources to your project<br>
 
+You can download models from here :
+https://drive.google.com/file/d/1TrDw9cfgEIgttxJceVqcm5-3poNOpIZs/view?usp=drive_link
+
 
 You can checkout for codes :
 
